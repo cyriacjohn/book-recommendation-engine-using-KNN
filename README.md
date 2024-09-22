@@ -1,18 +1,14 @@
-### Note
 
-You are currently reading this using Google Colaboratory which is a cloud-hosted version of Jupyter Notebook. This is a document containing both text cells for documentation and runnable code cells. If you are unfamiliar with Jupyter Notebook, watch this 3-minute introduction before starting this challenge: https://www.youtube.com/watch?v=inN8seMm7UI
-
-****
 
 ### Assignment
 
-In this challenge, you will create a book recommendation algorithm using K-Nearest Neighbors.
+In this challenge, I created a book recommendation algorithm using K-Nearest Neighbors.
 
-You will use the [Book-Crossings](http://www2.informatik.uni-freiburg.de/~cziegler/BX/) dataset. This dataset contains 1.1 million ratings (scale of 1-10) of 270,000 books by 90,000 users.
+I used the [Book-Crossings](http://www2.informatik.uni-freiburg.de/~cziegler/BX/) dataset. This dataset contains over 1.1 million ratings out of 10 of 270,000 books by 90,000 users.
 
-After importing and cleaning the data, use `NearestNeighbors` from `sklearn.neighbors` to develop a model that shows books that are similar to a given book. The Nearest Neighbors algorithm measures distance to determine the “closeness” of instances.
+After importing and cleaning the data, I used `NearestNeighbors` from `sklearn.neighbors` to develop a model that shows books that are similar to a given book. The Nearest Neighbors algorithm measures distance to determine the “closeness” of instances.
 
-Create a function named `get_recommends` that takes a book title (from the dataset) as an argument and returns a list of 5 similar books with their distances from the book argument.
+Then created a function named `get_recommends` that takes a book title (from the dataset) as an argument and returns a list of 5 similar books with their distances from the book argument.
 
 This code:
 
